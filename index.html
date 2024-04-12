@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="scss/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link rel="shortcut icon"
+        href="./img/kisspng-flight-hot-air-balloon-computerФІМП-icons-aerostat-5afe08ad4b2f92 1.png"
+        type="image/x-icon">
+    <title>Cappadocia</title>
+</head>
+<style>
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+    padding: 0 0 20px 0;
+    text-align: start;
+    font-size: 12px;
+}
+
+.prev,
+.prev1 {
+    color: rgb(19, 18, 18);
+    position: absolute;
+    top: 300px;
+    z-index: 4;
+    cursor: pointer;
+}
+
+.next,
+.next1 {
+    color: rgb(12, 12, 12);
+    position: absolute;
+    right: 0;
+    top: 300px;
+    z-index: 4;
+    cursor: pointer;
+}
+
+.container {
+    width: 1200px;
+}
+
+.up {
+    color: rgba(226, 171, 63, 1);
+    bottom: 20px;
+    right: 0;
+    z-index: 3;
+    position: fixed;
+}
+
+/* !nav */
+
+nav {
+    position: fixed;
+    width: 100%;
+    z-index: 9;
+}
+
+.nav_bar {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+a {
+    padding: 0 20px;
+    text-decoration: none;
+    color: black;
+}
+
+/*! header */
+
+#up {
+    transition: 3s;
+}
+
+.imges {
+    height: 750px;
+    width: 100%;
+    background-image: url('./images/Rectangle\ 43.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+
+.head_text {
+    align-self: center;
+}
+
+.cappa {
+    font-family: 'Great Vibes';
+    font-size: 200px;
+}
+
+.eks {
+    margin-left: 450px;
+    font-size: 40px;
+}
+
+.bg {
+    padding: 50px 300px;
+}
+
+.fair {
+    color: rgba(226, 171, 63, 1);
+    font-family: 'Great Vibes';
+    font-size: 100px;
+}
+
+.bg_p1 {
+    padding-left: 200px;
+    font-size: 12px;
+}
+
+/*! section fairy*/
+
+.fairy_box {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.f_block {
+    width: 600px;
+    position: relative;
+}
+
+.fb_img {
+    height: 550px;
+    width: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.f_block2 {
+    width: 600px;
+}
+
+.sec_p {
+    text-align: start;
+    padding: 30px 0;
+    font-size: 12px;
+}
+
+/*! section Out*/
+
+#Out {
+    padding: 10px 0;
+}
+
+.sec_o {
+    padding: 80px;
+}
+
+.sec_o_r {
+    height: 500px;
+    width: 500px;
+}
+
+.sec_o_l {
+    width: 600px;
+    position: relative;
+}
+
+.sec_o {
+    display: flex;
+    justify-content: space-around;
+}
+
+.sec_o_h3 {
+    padding: 20px 0;
+}
+
+.sec_o_p {
+    padding: 0 0 20px 0;
+    text-align: start;
+    font-size: 12px;
+}
+
+button {
+    border: 1px solid rgba(226, 171, 63, 1);
+    padding: 5px 20px;
+    background-color: #fff;
+    margin: 30px 100px 0 0;
+}
+
+.sec_o_img {
+    height: 750px;
+    width: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+</style>
+<body>
+    <a class="up" href="#up"><i class="fa-solid fa-angle-up fa-4x"></i></a></div>
+    <header id="up">
+        <div class="imges">
+            <nav>
+                <div class="container">
+                    <div class="nav_bar">
+                        <ul>
+                            <li><a href="#Out">Маршрут</a></li>
+                            <li><a href="#hotel">Отель</a></li>
+                            <li><a href="#section__p">Стоимость</a></li>
+                        </ul>
+                        <div class="phone">
+                            <i class="fa-solid fa-phone fa-1x"></i>
+                            <span>+996(779)-208-209</span>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <div class="head_text">
+                <h1 class="cappa">Cappadocia</h1>
+                <h3 class="eks">Эксклюзивный тур</h3>
+            </div>
+        </div>
+    </header>
+
+    <div class="bg">
+        <p class="fair">Fairy tail</p>
+        <i class="i__text">Сказочная страна чудес</i>
+    </div>
+    <section id="fairy">
+        <div class="fairy_box">
+            <div class="f_block">
+                <div class="prev">
+                    <i class="fa-solid fa-angle-left fa-2x"></i>
+                </div>
+                <div class="next">
+                      </div>
+                <img class="fb_img" src="./images/слайдер 2  картинка 2.png" alt="">
+                <img class="fb_img" src="./images/слайдер 2  картинка 3.png" alt="">
+                <img class="fb_img" src="./images/Rectangle 43.jpg" alt="">
+            </div>
+            <div class="f_block2">
+                <p class="sec_p">
+                    Каппадокия - сказочная страна воздушных шаров, сырных домиков, разноцветных дол ин и волшебных
+                    рассветов!
+                    Сюда приезжают, чтобы увидеть природные чудеса, полетать на воздушном шаре и конечно же сделать
+                    миллион красивых фотографий!
+                </p>
+                <p class="sec_p">
+                    Участников тура ждёт профессиональная фотосессия от лучших фотографов Каппадокии!
+                    Ведь именно за волшебными фото на рассвете на фоне воздушных шаров сюда приезжают люди со всего
+                    мира!
+
+                </p>
+
+                <h4 class="sec_p">Также Вы увидите:</h4>
+                <p class="sec_p">
+                    Музей на открытом воздухе в Гёреме
+                    Ущелье Ыхлара и монастырь Селиме
+                    Подземные города
+                    Крепость Учхисар
+                    Зельве и пашабан               </p>
+                <p class="sec_p">и многие другие достпримечательности.</p>
+                <p class="sec_p">
+                    Местная кухня — один из поводов посетить Каппадокию, здесь есть рестораны на любой бюджет.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="Out">
+        <div class="sec_o">
+            <div class="sec_o_r">
+                <h1 class="bg_p">
+                    <div class="trip">
+                        <img src="./images/Our trip.png" alt="">
+                        <i class="i__text">Маршрут</i>
+                    </div>
+                </h1>
+                <img src="./images/слайдер 2  картинка 2.png" alt="">
+                </div>
+                </div>
+    </section>
+    <h3 class="sec_o_h3">День 1 </h3>
+                <p class="sec_0_p">Прилёт в Анкару<br>
+                    Трансфер в Каппадокию<br>
+                    Солёное озеро<br>
+                    Приезд в Гёреме <br>
+                    Ужин
+                </p>
+
+                <h3 class="sec_o_h3">День 2 </h3>
+                <p class="sec_0_p">Фотосессия<br>
+                    Завтрак в отеле <br>
+                    Дневной тур по Каппадокии <br>
+                    Закат с панорамным видом<br>
+                </p>
+
+                <h3 class="sec_o_h3">День 3 </h3>
+                <p class="sec_0_p">Полёт на воздушном шаре<br>
+                    Завтрак в отеле <br>
+                    Экскурсии на выбор <br>
+                </p>
+
+                <h3 class="sec_o_h3">День 4 </h3>
+                <p class="sec_0_p">Свободное время, шоппинг<br>
+                    Трансфер в Анкару<br>
+                    Вылет в Киев</p>
+                <button class="btn">ЗАБРОНИРОВАТЬ</button>
+            </div>
+            <div class="sec_o_l">
+                <div class="prev1">
+                    <i class="fa-solid fa-angle-left fa-2x"></i>
+                </div>
+                <div class="next1">
+                    <i class="fa-solid fa-angle-right fa-2x"></i>
+                </div>
+                <img class="sec_o_img" src="./images/Rectangle 22.png" alt="">
+                <img class="sec_o_img" src="./images/Rectangle 43.jpg" alt="">
+                <img class="sec_o_img" src="./images/слайдер 2  картинка 2.png" alt="">
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
